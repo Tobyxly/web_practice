@@ -1,0 +1,187 @@
+body
+{
+	margin:0px auto;
+	padding:0px
+	border:0;
+	background-repeat:repeat-x;
+	background-image:url(img/body_bg.png)
+
+}
+div
+{
+	border:1px solid black;
+	margin:0px auto;
+	padding:0px
+}
+#header, #footer
+{
+	width:960px;
+}
+#header
+{
+	height:61px;
+	background:url(img/top_bg.png);
+	text-align:right;
+}
+#header a
+{
+	margin-right:40px;
+	line-height:61px;
+	color:#fff;
+	text-decoration:none;
+}
+#header a:hover
+{
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#navi
+{
+	width:100%;
+	height:91px;
+	background:url(img/navigation.png) repeat-x;
+}
+#footer
+{
+	height:50px;
+}
+#footer p
+{
+	margin:0px auto;
+	color:#fff;
+	line-height:25px;
+	text-align:center;
+}
+#operate,#data,#pages
+{
+	width:910px;
+}
+#operate
+{
+	height:30px;
+}
+#data
+{
+	height:340px
+}
+#pages
+{
+	height:28px;
+}
+#main
+{
+	background-color:#e8f3f8;
+	border:5px solid #8ac1db;
+	height:410px;
+	width:950px	
+}
+#datalist
+{
+	width:910px;
+	margin:5px auto;
+	text-align:center;
+	background-color:#fff;
+	border:0;
+	border-collapse:collapse;
+}
+#datalist td
+{
+	height:32px;
+	vertical-align:middle;
+	border:1px solid #ccc;
+}
+#datalist tr:hover
+{
+	background-color:#f7f9fd;
+}
+#datalist tr.header td
+{
+	font-weight:bold;
+	height:35px;
+	background:#fbedce;
+}
+input.btn_modify,input.btn_delete
+{
+	margin-left:3px;
+	width:58px;
+	cursor:pointer;
+	color:#000;
+	border:0;
+	background-color:#fff;
+	background-position:left center;
+	background-repeat:no-repeat;
+}
+input.btn_modify
+{
+	background-image:url(img/modification.png);
+}
+input.btn_delete
+{
+	background-image:url(img/delete.png);
+}
+#menu
+{
+	margin:3px auto;
+	width:960px;
+	padding:5px;
+	list-style-type:none;
+}
+#menu li
+{
+	float:left;
+	margin:0 14px;
+}
+#menu a
+{
+	display:block;
+	width:68px;
+	height:77px;
+}
+.index_off
+{
+	background:url(img/index_out.png);
+}
+.role_off
+{
+	background:url(img/role_out.png);
+}
+.admin_off
+{
+	background:url(img/admin_out.png);
+}
+.fee_off
+{
+	background:url(img/fee_out.png);
+}
+.account_off
+{
+	background:url(img/account_out.png);
+}
+.service_off
+{
+	background:url(img/service_out.png);
+}
+.bill_off
+{
+	background:url(img/bill_out.png);
+}
+.report_off
+{
+	background:url(img/report_out.png);
+}
+.information_off
+{
+	background:url(img/information_out.png);
+}
+.password_off
+{
+	background:url(img/password_out.png);
+}
+.list
+{
+	margin:auto;
+	
+	
+}
+

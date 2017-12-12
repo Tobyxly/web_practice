@@ -1,0 +1,105 @@
+<!DOCTYPE = html>
+<head>
+	<title>管理页面</title>
+	<meta charset = "utf-8">
+	<link type = "text/css" rel="Stylesheet" href = "admin_test.css"/>
+</head>
+<body>
+	<div id="header">
+		<a href="#">[退出]</a>
+	</div>
+	
+	<div id ="navi">
+		<ul id = "menu">
+			<li><a href="#" class="index_off"></a></li>
+			<li><a href="#" class="role_off"></a></li>
+			<li><a href="#" class="admin_off"></a></li>
+			<li><a href="#" class="fee_off"></a></li>
+			<li><a href="#" class="account_off"></a></li>
+			<li><a href="#" class="service_off"></a></li>
+			<li><a href="#" class="bill_off"></a></li>
+			<li><a href="#" class="report_off"></a></li>
+			<li><a href="#" class="information_off"></a></li>
+			<li><a href="#" class="password_off"></a></li>
+		</ul>
+	</div>
+	<div id = "main">
+		<div id = "operate">
+		</div>
+		<div id ="data">
+			<table id ="datalist">
+				<tr class="header">
+					<td>
+						<input type = "checkbox"/>全选
+					</td>
+					<td>管理员ID</td>
+					<td>姓名</td>
+					<td>拥有角色</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "checkbox"/>
+					</td>
+					<td>1</td>
+					<td>小明</td>
+					<td>超级管理员，角色管理员，账单管理员</td>
+					<td>
+						<input type = "button" class="btn_modify" value="修改"/>
+						<input type = "button" class ="btn_delete" value = "删除"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "checkbox"/>
+					</td>
+					<td>2</td>
+					<td>小强</td>
+					<td>超级管理员，账务账号管理员</td>
+					<td>
+						<input type = "button" class="btn_modify" value="修改"/>
+						<input type = "button" class ="btn_delete" value = "删除"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type = "checkbox"/>
+					</td>
+					<td>3</td>
+					<td>小李子</td>
+					<td>角色管理员，数据库管理员</td>
+					<td>
+						<input type = "button" class="btn_modify" value="修改"/>
+						<input type = "button" class ="btn_delete" value = "删除"/>
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						<input type = "checkbox"/>
+					</td>
+					<td>4</td>
+					<td>字母哥</td>
+					<td>账务账号管理员，数据库管理员</td>
+					<td>
+						<input type = "button" class="btn_modify" value="修改"/>
+						<input type = "button" class ="btn_delete" value = "删除" onclick="alert('删除成功')"/>
+					</td>
+				</tr>
+			</table>
+			<p>角色列表：</p>
+			<ul class="list">
+				<li>超级管理员</li>
+				<li>角色管理员</li>
+				<li>账单管理员</li>
+				<li>账务账号管理员</li>
+				<li>数据库管理员</li>
+			</ul>
+		</div>
+		<div id ="pages">
+		</div>
+	</div>
+	<div id="footer">
+		<p>版权所有</p>
+		<p>违者必究</p>
+	</div>
+</body>
