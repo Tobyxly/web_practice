@@ -1,0 +1,38 @@
+
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+    <div id = "app" align = "center">
+        <header>
+            <p style = "font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB'">网页图片分页练习</p>
+        </header>
+        <nav style = "background-color:#67C23A;margin:0 auto">
+            <img src = '../static/1.jpg'/>
+        </nav>
+        <footer>
+            <el-pagination
+                    v-bind:current-Page="pageIndex"
+                    v-on:current-change="pageIndexChange"
+                    :total="100"
+                    layout="prev,pager,next" >
+            </el-pagination>
+        </footer>
+    </div>
+</body>
+<!-- 先引入 Vue -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#app',
+        data:{
+
+        }
+    })
+</script>
+</html>
